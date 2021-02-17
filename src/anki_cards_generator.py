@@ -130,7 +130,7 @@ class AnkiAutomatic:
                 example = remove_pattern(example, '{}s'.format(concept))
             example = remove_pattern(example, concept)
 
-            return " (e.g. {})".format(example)
+            return " \r\n- {}".format(example)
         else:
             return ''
 
